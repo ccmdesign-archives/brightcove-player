@@ -1,0 +1,14 @@
+.vjs-overlay {
+  width: auto !important;
+  right: 5px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.vjs-overlay a {
+  text-decoration: none;
+}
+
+.hide-overlay .vjs-overlay {
+  display: none;
+}

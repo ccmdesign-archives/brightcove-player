@@ -1,5 +1,6 @@
 .vjs-overlay {
   width: auto !important;
+  max-width: 100% !important;
   right: 5px;
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.7) !important;

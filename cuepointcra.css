@@ -7,7 +7,7 @@
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.7) !important;
   transition: top 1s;
-  will-change: top;
+  -webkit-transition: top 1s;
 }
 
 .vjs-overlay a {

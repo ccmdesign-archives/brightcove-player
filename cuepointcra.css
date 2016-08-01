@@ -1,11 +1,11 @@
 .vjs-overlay {
   width: auto !important;
   max-width: 100% !important;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
   font-size: 16px;
-  background-color: rgba(0, 0, 0, 0.4) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
   transition: top 1s;
   will-change: top;
 }
@@ -15,5 +15,5 @@
 }
 
 .hide-overlay .vjs-overlay {
-  top: -50px;
+  top: -50px !important;
 }

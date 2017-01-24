@@ -1,0 +1,20 @@
+.vjs-overlay {
+  width: auto !important;
+  max-width: 100% !important;
+  top: auto !important;
+  bottom: 33px !important;
+  left: 0 !important;
+  right: 0 !important;
+  font-size: 21px;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  transition: bottom .5s;
+  -webkit-transition: top .5s;
+}
+
+.vjs-overlay a {
+  text-decoration: none;
+}
+
+.hide-overlay .vjs-overlay {
+  bottom: -100px !important;
+}
